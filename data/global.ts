@@ -1,7 +1,9 @@
+// types.ts (or wherever your types and footer config are)
+
 type Route = {
   title: string,
   path: string
-}
+};
 
 type FooterCol = {
   title: string,
@@ -11,17 +13,13 @@ type FooterCol = {
     icon?: string,
     leavesWebsite: boolean
   }[]
-}
+};
 
 type Footer = {
   columns: FooterCol[]
-  support: {
-    buymeacoffee: string
-    paypal: string
-    message: string
-  }
 };
 
+// Route definitions
 export const routes: Route[] = [
   {
     title: "Home",
@@ -41,7 +39,7 @@ export const routes: Route[] = [
   // },
 ];
 
-
+// Footer content without 'support'
 export const footer: Footer = {
   columns: [
     {
@@ -62,7 +60,6 @@ export const footer: Footer = {
           link: "/projects",
           leavesWebsite: false,
         },
-    
       ],
     },
     {
@@ -89,5 +86,4 @@ export const footer: Footer = {
       ],
     },
   ],
-  
 };
