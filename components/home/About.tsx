@@ -3,7 +3,7 @@ import Image from "next/image";
 import useInView from "../hooks/useInView";
 
 function About() {
-  const [ref, inView] = useInView(0.3); // ✅ Removed generic
+  const [inView, ref] = useInView(0.3);// ✅ Removed generic
 
   return (
     <div
