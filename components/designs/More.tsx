@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function More() {
-    return (
-    
-    );
+  return (
+    <div>
+      <p>More content coming soon!</p>
+    </div>
+  );
 }
 
-export default More
+export default More;
