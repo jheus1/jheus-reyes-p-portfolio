@@ -9,7 +9,7 @@ const [ref, inView] = useInView(); // JavaScript or TypeScript-compatible now
   return (
     <div
       ref={ref}
-      className="flex flex-col pt-8 relative px-6 sm:top-[100px]"
+      className="flex flex-col pt-3 relative px-6 sm:top-[100px]"
     >
       {/* Section Title */}
       <div id="learnmore1" className="mb-5">
