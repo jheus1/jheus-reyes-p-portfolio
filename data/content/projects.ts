@@ -16,7 +16,7 @@ const projects: Project[] = [
     desc: "A more approachable version of CRUD can be designed with user-friendly labels, clear UI/UX elements, and simplified terminology, especially for beginners or non-technical users.",
     img: "/static/projects/crud2.png",
      github: "https://github.com/jheus1/CRUD2_3RDYEAR",
-    tags: ["HTML", "CSS", "Javascript", "PHP"],
+    tags: ["HTML", "CSS", "Javascript", "PHP", "BOOTSTRAP"],
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const projects: Project[] = [
     desc: "Developed a NEUST login page featuring multiple authentication methods.",
     img: "/static/projects/NEUST-LOGIN.png",
     github: "https://github.com/jheus1/NEUST_LOGIN_PROJ_WITHOUT_DB_3RDYEAR",
-    tags: ["HTML", "CSS", "PHP", "JAVASCRIPT", "JSON"],
+    tags: ["HTML", "CSS", "PHP", "JAVASCRIPT", "JSON", "BOOTSTRAP"],
   },
    {
     id: 3,
@@ -32,7 +32,7 @@ const projects: Project[] = [
     desc: "Created a NEUST RET digital logbook system to streamline the recording of entries and exits, enabling secure, real-time tracking for students, faculty, and visitors.",
     img: "/static/projects/RET.png",
     github: "https://github.com/jheus1/LOGBOOK_4THYEAR",
-    tags: ["PHP", "HTML", "SQL", "JAVASCRIPT", "JSON"],
+    tags: ["PHP", "HTML", "SQL", "JAVASCRIPT", "JSON", "BOOTSTRAP"],
   },
    {
     id: 4,
