@@ -20,7 +20,7 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "NEUST LOGIN PAGE (WITH MULTIPLE AUTHENTICATION)",
+    title: "NEUST Login Page (With multiple authentication)",
     desc: "Developed a NEUST login page featuring multiple authentication methods.",
     img: "/static/projects/NEUST-LOGIN.png",
     github: "https://github.com/jheus1/NEUST_LOGIN_PROJ_WITHOUT_DB_3RDYEAR",
@@ -33,6 +33,14 @@ const projects: Project[] = [
     img: "/static/projects/RET.png",
     github: "https://github.com/jheus1/LOGBOOK_4THYEAR",
     tags: ["PHP", "HTML", "SQL", "JAVASCRIPT", "JSON"],
+  },
+   {
+    id: 4,
+    title: "Philippine Universities (Ionic)",
+    desc: "Built with Ionic, this mobile-ready app showcases a complete list of universities across the Philippines. Organized by region and province, it provides users with easy navigation and quick access to school names nationwide—ideal for reference and academic planning.",
+    img: "/static/projects/ionic.png",
+    github: "https://github.com/jheus1/UNIVERSITIES_IN_PH_IONIC_3RDYEAR",
+    tags: ["IONIC", "ANGULAR"],
   },
 ];
 
