@@ -12,7 +12,14 @@ function ProjectCard({ project }) {
       <a
         href={project.link || project.github}
         target="_blank"
-        className={`w-full relative rounded-xl border-fun-gray border p-2 transition hover:-translate-y-2 hover:opacity-75 hover:border-fun-pink will-change-projectCard`}
+        className={`
+  className="
+  group backdrop-blur-md bg-white/5 border border-fun-gray/20
+  hover:border-fun-pink/50 shadow-inner hover:shadow-xl
+  transform hover:scale-105 transition-all duration-300 ease-in-out
+  rounded-xl p-4 flex flex-col items-center text-center mt-2
+"`}
+
       >
         <img
           className="w-full rounded-md"
@@ -24,18 +31,7 @@ function ProjectCard({ project }) {
           <a href={project.link || project.github} target="_blank">
             <h3 className="text-lg font-bold">{project.title}</h3>
           </a>
-          <div className="">
-            {project.github && (
-              <a href={project.github} target="_blank" rel="noreferrer">
-                <Image
-                  src="/static/icons/github.svg"
-                  width={16}
-                  height={16}
-                  alt="Github Icon"
-                />
-              </a>
-            )}
-          </div>
+  
         </div>
         <p className="text-fun-gray text-left text-sm">{project.desc}</p>
         <ul className="flex flex-wrap items-center mt-2 -ml-2 list-none">
