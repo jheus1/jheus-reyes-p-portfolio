@@ -30,8 +30,7 @@ function Heading({ tag }: HeadingProps) {
       )}
       {!tag && (
         <p className="text-fun-gray text-xl sm:text-2xl max-w-3xl m-auto">
-          I've built cool apps and websites using anything from HTML and PHP. Here are some of my projects over the course
-          of my journey.
+          Throughout my journey, I’ve developed websites with different tools and technologies. Take a look at what I’ve created.
         </p>
       )}
     </div>
