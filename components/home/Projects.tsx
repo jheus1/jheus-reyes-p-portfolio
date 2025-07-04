@@ -28,7 +28,7 @@ function Projects() {
 
       {/* View All Button */}
       <div className="text-center mt-10">
-        <p className="text-fun-light mt-2 text-lg">
+        <p className="text-fun-light mt-2 text-xl">
           Scroll sideways to explore more.
         </p>
         {/* <Link href="/projects">
