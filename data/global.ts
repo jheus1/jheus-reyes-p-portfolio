@@ -83,6 +83,12 @@ export const footer: Footer = {
           icon: "/static/icons/mail-f.svg",
           leavesWebsite: true,
         },
+         {
+          name: "Facebook",
+          link: "https://www.facebook.com/jheus.p.reyes",
+          icon: "/static/icons/fb5.svg",
+          leavesWebsite: true,
+        },
       ],
     },
   ],
