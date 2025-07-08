@@ -6,41 +6,14 @@ import { footer } from "@/data/global";
 function Footer() {
   const pages = footer.columns.find(col => col.title.toLowerCase() === "pages");
   const social = footer.columns.find(col => col.title.toLowerCase() === "social");
-  const others = footer.columns.find(col => col.title.toLowerCase() === "others");
+  const resume = footer.columns.find(col => col.title.toLowerCase() === "resume");
 
   return (
     <footer className="w-screen bg-bg text-white border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 py-10">
         {/* Main Layout */}
         <div className="grid grid-cols-1 sm:grid-cols-4 gap-1 text-center sm:text-left">
-          {/* Others */}
-          {others && (
-            <div>
-              <h4 className="text-sm font-semibold text-fun-gray mb-2 uppercase">
-                {others.title}
-              </h4>
-              <ul className="space-y-1 text-sm">
-                {others.links.map((link, i) => (
-                  <li key={i}>
-                    {link.leavesWebsite ? (
-                      <a
-                        href={link.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:underline"
-                      >
-                        {link.name}
-                      </a>
-                    ) : (
-                      <Link href={link.link} className="hover:underline">
-                        {link.name}
-                      </Link>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+         
 
           {/* Pages */}
           {pages && (
@@ -97,6 +70,35 @@ function Footer() {
                       )}
                       {link.name}
                     </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            
+          )}
+           {/* Others */}
+          {resume && (
+            <div>
+              <h4 className="text-sm font-semibold text-fun-gray mb-2 uppercase">
+                Click to download my resume
+              </h4>
+              <ul className="space-y-1 text-sm">
+                {resume.links.map((link, i) => (
+                  <li key={i}>
+                    {link.leavesWebsite ? (
+                      <a
+                        href={link.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                      >
+                        {link.name}
+                      </a>
+                    ) : (
+                      <Link href={link.link} className="hover:underline">
+                        {link.name}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>
