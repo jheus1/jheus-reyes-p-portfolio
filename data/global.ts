@@ -91,5 +91,16 @@ export const footer: Footer = {
         },
       ],
     },
+
+     {
+      title: "resume",
+      links: [
+        {
+          name: "Jheus's Resume",
+          link: "https://drive.google.com/uc?export=download&id=1-NhPQ9_LsyJ1hpNiRtgTI9gpCqBXxk9T",
+          leavesWebsite: true,
+        },
+      ],
+    },
   ],
 };
