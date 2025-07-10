@@ -8,7 +8,7 @@ const projects: Project[] = [
     desc: "Is a classic concept that can be as simple or as complex as you desire, making it suitable for both casual and more challenging gameplay experiences.",
     img: "/static/projects/pythongame.png",
     github: "https://github.com/jheus1/PYTHONGAME_2D_3RDYEAR",
-    tags: ["Python"],
+    tags: ["PYTHON"],
   },
   {
     id: 1,
