@@ -12,8 +12,8 @@ const [ref, inView] = useInView(); // JavaScript or TypeScript-compatible now
       className="flex flex-col pt-3 relative px-6 sm:top-[100px]"
     >
       {/* Section Title */}
-      <div id="learnmore1" className="mb-5">
-        <h2 className="text-3xl font-bold pt-5">About Me</h2>
+      <div id="learnmore1" className="mb-10">
+        <h2 className="text-3xl font-bold pt-5 mb-3">About Me</h2>
       </div>
 
       {/* 2-Column Layout */}
