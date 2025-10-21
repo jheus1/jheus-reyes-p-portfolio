@@ -42,6 +42,14 @@ const projects: Project[] = [
     github: "https://github.com/jheus1/UNIVERSITIES_IN_PH_IONIC_3RDYEAR",
     tags: ["IONIC", "ANGULAR"],
   },
+    {
+    id: 4,
+    title: "St. Isidore the Farmer Parish",
+    desc: "Developed for St. Isidore the Farmer Parish, this website serves as a digital hub for the Catholic community in San Isidro, Nueva Ecija. It provides Mass schedules, parish announcements, live-stream access, and information on ministries—designed to keep parishioners connected and engaged in faith wherever they are.",
+    img: "/static/projects/st.png",
+    github: "https://sanisidromagsasakaparish.com/",
+    tags: ["PHP", "HTML", "SQL", "JAVASCRIPT", "JSON", "BOOTSTRAP"],
+  },
 ];
 
 export const allTags = []
