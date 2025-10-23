@@ -25,7 +25,7 @@ const [ref, inView] = useInView(); // JavaScript or TypeScript-compatible now
           }`}
         >
           <p className="text-fun-gray-light text-2xl leading-relaxed">
-            I’m Jheus, a recent Information Technology graduate from NEUST – San Isidro Campus. I specialize in front-end development and have experience building responsive, user-centered web applications.
+           I’m Jheus, a recent Information Technology graduate from NEUST – San Isidro Campus, specializing in front-end development. I’m passionate about creating responsive, user-focused web applications that deliver seamless digital experiences.
           </p>
           <p className="text-fun-gray-light text-2xl mt-4 leading-relaxed">
             I’m passionate about clean design, functional layouts, and solving real-world problems with technology. I enjoy working with HTML, CSS, JavaScript, ReactJS, PHP, and Figma to bring ideas to life.
