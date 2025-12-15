@@ -43,13 +43,22 @@ const projects: Project[] = [
     tags: ["IONIC", "ANGULAR"],
   },
     {
-    id: 4,
+    id: 5,
     title: "St. Isidore the Farmer Parish",
     desc: "Developed for St. Isidore the Farmer Parish, this website serves as a digital hub for the Catholic community in San Isidro, Nueva Ecija. It provides Mass schedules, parish announcements, live-stream access, and information on ministries—designed to keep parishioners connected and engaged in faith wherever they are.",
     img: "/static/projects/st.png",
     github: "https://sanisidromagsasakaparish.com/",
     tags: ["PHP", "HTML", "SQL", "JAVASCRIPT", "JSON", "BOOTSTRAP"],
   },
+ {
+    id: 6,
+    title: "PhilSPEN",
+    desc: "Contributed to the development of the PhilSPEN official website by implementing an automated email system to improve communication efficiency for registrations and notifications. Also assisted in enhancing selected UI components, focusing on usability, layout consistency, and a more user-friendly experience for members and visitors.",
+    img: "/static/projects/philzpen.png",
+    github: "https://www.philspen.org/",
+    tags: ["PHP", "HTML", "SQL", "JAVASCRIPT",  "BOOTSTRAP"],
+  },
+
 ];
 
 export const allTags = []
